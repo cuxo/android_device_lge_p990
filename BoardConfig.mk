@@ -18,6 +18,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_p990_defconfig
 
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := ${HOME}/android/cm10/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-
+
 #TARGET_PREBUILT_KERNEL := device/lge/p990/kernel
 
 BOARD_VOLD_MAX_PARTITIONS := 10
